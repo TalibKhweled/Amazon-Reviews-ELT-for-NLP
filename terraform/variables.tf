@@ -10,11 +10,3 @@ variable "instance_type" {
   type        = string
   default     = "t2.micro"
 }
-
-variable "database_name" {
-  description = "The name of the database."
-  type        = string
-  default     = "mydatabase"
-}
-
-# Add more variables as needed
