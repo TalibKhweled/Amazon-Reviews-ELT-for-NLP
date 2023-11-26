@@ -1,7 +1,7 @@
 # Preparing Yelp data for NLP using Apache Airflow and Snowflake
 
 <p align="center">
-  <img src="https://blog.yelp.com/wp-content/uploads/2021/08/Yelp-Logo-Refresh.gif" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/930px-Yelp_Logo.svg.png" width="400"/>
 </p>
 
 ## Project Overview
