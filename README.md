@@ -1,11 +1,7 @@
-# Preparing Yelp data for NLP using Apache Airflow and Snowflake
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/930px-Yelp_Logo.svg.png" width="400"/>
-</p>
+# ELT with Spark for Preparing NLP data on Snowpark
 
 ## Project Overview
-The explosion in popularity of language models means that feeding correctly processed clean data is more important than ever to have a reliable system. By preparing our text data to be ready for processing at arrival, we eliminate the time needed to do this step downstream. The idea of this project is to demonstrate a common paradigm for bringing data into a data warehouse from S3, and how we can prepare the data for natural language processing during ETL process. 
+The explosion in popularity of language models means that feeding correctly processed clean data is more important than ever to have a reliable system. By preparing our text data to be ready for processing at arrival, we eliminate the time needed to do this step downstream. The idea of this project is to demonstrate a practical solution for large datasets that cannot be proessed in-memory in its entirety, and using a cloud data warehousing solution to store and then process that data for NLP tasks. The motiation being that large corpuses of text data becoming extremely valuable to those building LLMs means that we need robust solutions to handle that data and prepare it for tasks that could range from traditional NLP methods to LLM training data.
 
 ### Goals
 - Transfer text data from S3 to Snowflake.
